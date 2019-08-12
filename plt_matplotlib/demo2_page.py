@@ -33,9 +33,18 @@ import random
 import matplotlib
 from matplotlib import font_manager
 
+
 #设置字体，实例化一个fontproperties
-my_font = font_manager.FontProperties(fname="/System/Library/Fonts/PingFang.ttc")
-my_font_larger = font_manager.FontProperties(fname="/System/Library/Fonts/PingFang.ttc",size="larger")
+my_font = font_manager.FontProperties(r'/root/data_analysis/data_anlysis/msyh.TTF')
+my_font_larger = font_manager.FontProperties(fname=r'/root/data_analysis/data_anlysis/msyh.TTF',size="larger")
+
+# myfont = font_manager.FontProperties(fname=r'/root/data_analysis/data_anlysis/msyh.TTF')
+font={
+'family':'Microsoft Yahei',
+"size":"10"
+}
+
+
 
 
 x = range(0,120)
