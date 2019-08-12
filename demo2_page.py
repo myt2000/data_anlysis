@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 import random
 from matplotlib import font_manager
 
-myfont = font_manager.FontProperties(fname=r'E:/font/font45/msyh.TTF')
+myfont = font_manager.FontProperties(fname=r'/root/data_analysis/data_anlysis/msyh.TTF')
 font={
 'family':'Microsoft Yahei',
 "size":"10"
